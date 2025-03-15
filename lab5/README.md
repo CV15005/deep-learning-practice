@@ -161,3 +161,5 @@ https://universe.roboflow.com/
 
 [Примеры блокнотов работы с roboflow](https://github.com/roboflow/notebooks)
 
+[Ссылка на вебинар по использованию ИИ в медицинских задачах - про Roboflow c 37 минуты](https://vkvideo.ru/video-145052891_456247987?utm_source=email&utm_medium=email&utm_campaign=otus&utm_content=auto&utm_term=after_ol&relogin=True)
+
