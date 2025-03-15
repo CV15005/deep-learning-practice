@@ -131,13 +131,10 @@ path: /kaggle/input/mydataset # измените на абсолютный пу�
 Выполните инференс на тестовых изображениях (веса лучшей модели сохраняются по пути `runs/detect/train/weights/best.pt`).
 
 
-[Пример обучения модели в google colab - 1](https://colab.research.google.com/drive/1iBQpOMQT2UDdoJMpMUNtlNvp2ZHLJaqa?usp=sharing)
+[Пример обучения модели в google colab](https://colab.research.google.com/drive/1iBQpOMQT2UDdoJMpMUNtlNvp2ZHLJaqa?usp=sharing)
 
-[Пример обучения модели в google colab - 2](https://colab.research.google.com/drive/1LJ_iMhWDpahstvPFCsxfqs5OpIdV-jsX?usp=sharing)
+[Пример обучения модели в kaggle](https://www.kaggle.com/code/kvsbmstu/train-yolo-custom-dataset)
 
-[Пример обучения модели в kaggle - 1](https://www.kaggle.com/code/kvsbmstu/train-yolo-custom-dataset)
-
-[Пример обучения модели в kaggle - 2](https://www.kaggle.com/code/kvsbmstu/train-yolo-custom-dataset-football)
 
 
 
