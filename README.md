@@ -1,3 +1,3 @@
-"# deep-learning-practice" 
+# deep-learning-practice
 
 [Журнал]()
