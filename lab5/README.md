@@ -4,7 +4,7 @@
 
 1. Выполните разметку собранного вами датасета изображений с помощью средства разметки CVAT.
 
-2. Обучите модель YOLOv11 от Ultralytics в google colab или kaggle (с использованием GPU).
+2. Обучите модель YOLO26 от Ultralytics в google colab или kaggle (с использованием GPU).
 
 
 
@@ -119,21 +119,22 @@ train: train/images
 val: valid/images
 nc: 1 # число классов
 names: ['my_class'] # измените на название класса
-path: /kaggle/input/mydataset # измените на абсолютный путь до датасета
+path: /kaggle/input/datasets/имя_аккаунта/mydataset # измените на абсолютный путь до датасета
 ```
 
 
 Теперь готовый датасет можно загрузить в google colab или kaggle и обучить yolo-модель.
 
+При создании датасета в kaggle перейдите в папку датасета и создайте архив с ее содержимым. Полученный архив подгрузите при создании нового датасета. Архивирование внутри папки поможет избежать дополнительной вложенности и путь path до датасета в data.yaml будет правильным.
 
 ## Обучение модели
 Обучите модель, оцените метрики, постройте матрицы ошибок (результаты автоматически сохраняются в папке `runs`).
 Выполните инференс на тестовых изображениях (веса лучшей модели сохраняются по пути `runs/detect/train/weights/best.pt`).
 
 
-[Пример обучения модели в google colab](https://colab.research.google.com/drive/1iBQpOMQT2UDdoJMpMUNtlNvp2ZHLJaqa?usp=sharing)
+[Пример обучения модели в google colab](https://colab.research.google.com/drive/1nXVqR5rpwayHNmmAJwWv9ikntastohLE?usp=sharing)
 
-[Пример обучения модели в kaggle](https://www.kaggle.com/code/kvsbmstu/train-yolo-custom-dataset)
+[Пример обучения модели в kaggle](https://www.kaggle.com/code/kvsbmstu/train-yolo-custom-dataset-2026)
 
 
 
@@ -156,7 +157,7 @@ https://universe.roboflow.com/
 
 Можно скачать нужный датасет, например, с roboflow в colab, добавив код загрузки датасета по его имени.
 
-[Примеры блокнотов работы с roboflow](https://github.com/roboflow/notebooks)
+[Примеры блокнотов для работы с roboflow](https://github.com/roboflow/notebooks)
 
 [Ссылка на вебинар по использованию ИИ в медицинских задачах - про Roboflow c 37 минуты](https://vkvideo.ru/video-145052891_456247987?utm_source=email&utm_medium=email&utm_campaign=otus&utm_content=auto&utm_term=after_ol&relogin=True)
 
